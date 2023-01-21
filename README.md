@@ -2,6 +2,8 @@
 
 This guide is written for **Ubuntu 22.04** and hosted inside of a private network such a home or office setting with now public access the registry.
 
+![Setup diagram](./diagram.jpg)
+
 ---
 
 ## Helpful Links:

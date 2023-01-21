@@ -25,7 +25,6 @@ services:
       - ./certs/fullchain.pem:/etc/nginx/certs/fullchain.pem
       - ./certs/privkey.pem:/etc/nginx/certs/privkey.pem
     ports:
-      - 80:80
       - 443:443
     depends_on:
       - registry
