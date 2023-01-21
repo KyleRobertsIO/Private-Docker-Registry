@@ -42,11 +42,11 @@ sudo docker compose -f docker-compose.yml up -d
 
 ## Enable Docker Daemon Private Registry Access
 
-By default Docker disallows being able to push/pull images to registry with self signed certificates. In the file `/etc/docker/daemon.json` you want to add the following...
+By default Docker disallows being able to push/pull images to registry with self signed certificates. In the file `/etc/docker/daemon.json` you want to add the following, just make sure to set your registry address and port correctly...
 
 ```json
 {
-    "insecure-registries" : ["docker.squadwars.org:443"]
+    "insecure-registries" : ["<registry-ip-or-domain>:<port>"]
 }
 ```
 
