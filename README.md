@@ -12,6 +12,10 @@ This guide is written for **Ubuntu 22.04** and hosted inside of a private networ
 
 ---
 
+## Getting Started
+
+You will need the files include in this repository. Either copy them one by one or clone them down to your machine.
+
 ## Define NGINX Proxy Pass
 
 The combo of the registy ui and docker registry leverage NGINX inside the ui container. In order to properly connect the two with out CORS issues, you need to properly pass the request from the ui to the registry API. Replace in `nginx.conf` file, the proxy_pass line with `<registry-ip-or-domain>` to the proper IP of the host system. 
