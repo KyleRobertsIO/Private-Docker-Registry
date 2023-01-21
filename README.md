@@ -1,6 +1,6 @@
 # Private Docker Registry Setup
 
-This guide is written for **Ubuntu 22.04** and hosted inside of a private network such a home or office setting with no public access the registry.
+This guide is written for **Ubuntu 22.04** and hosted inside of a private network such a home or office setting with no public access to the registry.
 
 ![Setup diagram](./diagram.jpg)
 
